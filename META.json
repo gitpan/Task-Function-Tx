@@ -1,0 +1,44 @@
+{
+   "abstract" : "Install all modules that provide transactional function",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-Function-Tx",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::Trash::Undoable" : 0,
+            "Rinci" : 0,
+            "Task::Setup" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://metacpan.org/release/Task-Function-Tx",
+      "repository" : {
+         "url" : "http://github.com/sharyanto/perl-Task-Function-Tx"
+      }
+   },
+   "version" : "0.01"
+}
+
